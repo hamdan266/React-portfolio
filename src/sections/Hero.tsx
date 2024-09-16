@@ -22,13 +22,6 @@ export const HeroSection = () => {
         <div className="size-[1020px] hero-ring"></div>
         <div className="size-[1220px] hero-ring"></div>
 
-        {/* 
-        shouldOrbit?: boolean;
-        shouldSpin?: boolean;
-        spinDuration?: string;
-        orbitDuration?: string;
-        */}
-
         <HeroOrbit size={430} rotation={-14} shouldOrbit orbitDuration="30s" shouldSpin spinDuration="3s">
           <SparkleIcon className="size-8 text-emerald-300/20" />
         </HeroOrbit>
